@@ -1,4 +1,4 @@
-# Decode By Joker
+#DECODE BY KEOMON
 
 import requests
 import random
@@ -34,9 +34,10 @@ a_aB_s = '\x1b[2;39m'
 Ba_bS = '\x1b[2;36m'
 Ya_Bs = '\x1b[1;34m'
 S_aBs = '\x1b[1;33m'
-ab = pyfiglet.figlet_format('KEOMON...IG LIKES')
+ab = pyfiglet.figlet_format('KEOMON')
 print(a_bSa + ab)
-
+print('--------------------------------------')
+print('IG LIKES')
 def to(s):
     for char in s + '\n':
         sys.stdout.write(char)
@@ -44,7 +45,7 @@ def to(s):
         time.sleep(0.0625)
         return None
 
-to('\x1b[31;m TOOL >> \x1b[1;36mFREE IG LIKES FOR EVERYONE\n\x1b[1;31m DEVELOPER >>\x1b[1;33m Dec By KEOMON BEB \n')
+to('\x1b[31;m TOOL >> \x1b[1;36mFREE IG LIKES FOR EVERYONE\n\x1b[1;31m DEVELOPER >>\x1b[1;33m KEOMON BEB \n')
 ua = UserAgent('ios').Random()
 user = input('[+] InstaGram UserName : ')
 link = input('[+] Post Link : ')
@@ -69,4 +70,4 @@ res = requests.post('https://api.likesjet.com/freeboost/7', json = {
     'accept-language': 'en-XA,en;q=0.9,ar-XB;q=0.8,ar;q=0.7,en-GB;q=0.6,en-US;q=0.5' }).json()
 
 print(res['message'])
-print('\x1b[32;m THALA FOR A REASON.')
+print('\x1b[32;m THALA FOR A REASON HIHIHI.')
