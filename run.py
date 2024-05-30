@@ -37,7 +37,8 @@ S_aBs = '\x1b[1;33m'
 ab = pyfiglet.figlet_format('KEOMON')
 print(a_bSa + ab)
 print('--------------------------------------')
-print('IG LIKES')
+print('              IG LIKES')
+print('--------------------------------------')
 def to(s):
     for char in s + '\n':
         sys.stdout.write(char)
